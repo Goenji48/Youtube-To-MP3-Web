@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #303030;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 100%;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #606060;
+    border-radius: 20px;
+}
+
+.content{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.content h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.content input{
+    color: black;
+    background-color: #ddd;
+    width: 70%;
+    height: 40px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.content iframe {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border-radius: 20px;
+    max-width: 1000px;
+    min-height: 800px;
+}
+
+.content button:not(hover){
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content button:hover{
+    color: white;
+    background-color: rgb(22, 22, 66);
+    transition: 0.5s;
+}
+
+footer{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #202020;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+}
